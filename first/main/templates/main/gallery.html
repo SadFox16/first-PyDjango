@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+{% block title %}Галерея{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12 mb-4">
+        <img class="img-fluid" src="/static/main/img/django1.png" alt="django1">
+    </div>
+    <div class="col-12 mb-4">
+        <img class="img-fluid" src="/static/main/img/django2.jpeg" alt="django2">
+    </div>
+    <div class="col-12">
+        <img class="img-fluid" src="/static/main/img/black_kiwi.jpg" alt="black_kiwi">
+    </div>
+</div>
+{% endblock %}

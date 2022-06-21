@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+{% block title %}О нас{% endblock %}
+
+{% block content %}
+<div class="text-center">
+        <h1>О Black kiwi</h1>
+        <p>Black kiwi - лидер на рынке обучения и всякой всячины. Уже более 10 лет мы разбираеся с фреймворком Django для Python и не собираемся останавливаться. Скорее присоединяйтесь к нашей команде!</p>
+        <div class="justify">
+            <a href="{% url 'home' %}" class="btn btn-danger">ГЛАВНАЯ</a>
+            <a href="{% url 'contacts' %}" class="btn btn-warning">КОНТАКТЫ</a>
+        </div>
+    </div>
+{% endblock %}
